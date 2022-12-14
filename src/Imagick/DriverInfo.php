@@ -148,6 +148,7 @@ class DriverInfo extends AbstractInfo
                 $supportedFormats[] = $format;
             }
         }
+        //all supported formats
 
         return new FormatList($supportedFormats);
     }
